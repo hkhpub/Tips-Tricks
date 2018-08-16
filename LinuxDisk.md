@@ -1,4 +1,4 @@
-## 새로 HDD 추가하여 리눅스 `/home` 디렉토리 확장하기
+## 새로 HDD 추가하여 리눅스 /home 디렉리 확장하기
 
 * 새로 추가한 HDD정보 확인한다
 ```sh
@@ -42,7 +42,7 @@ rsync -avP /home/ /mnt/
 
 * root 계정으로 로그인하여 기존 파일시스템의 `/home` 디텍터리를 지운다!
 
-*주의: 모든 파일이 지워지므로 반드시 백업이 잘 되었는지 확인하고 진행한다! *
+*주의: 모든 파일이 지워지므로 반드시 백업이 잘 되었는지 확인하고 진행한다!*
 ```sh
 rm -r /home
 ```
@@ -51,13 +51,15 @@ rm -r /home
 ```sh
 vim /etc/fstab
 ```
-파일 마지막에 다음 라인 추가
+
 ```sh
+# 파일 마지막에 다음 라인 추가
 # mount hard disk to /home
 UUID=bf87d6cb-e641-4736-addc-0b6e94104a97 /home ext4    rw,relatime,acl 0       2
 ```
-UUID 확인방법
+
 ```sh
+# UUID 확인방법
 ll /dev/disk/by-uuid
 ```
 
