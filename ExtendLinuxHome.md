@@ -54,6 +54,7 @@ vim /etc/fstab
 
 ```sh
 # 파일 마지막에 다음 라인 추가
+# UUID 값은 장치마다 다르기때문에 아래 명령어로 확인하고 
 # mount hard disk to /home
 UUID=bf87d6cb-e641-4736-addc-0b6e94104a97 /home ext4    rw,relatime,acl 0       2
 ```
