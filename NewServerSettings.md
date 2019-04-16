@@ -1,4 +1,4 @@
-## New server setting
+# New server setting
 ---------------------------------------------
 * Create a new user and add user to sudo group
 
@@ -17,7 +17,7 @@ sudo usermod -aG sudo <username>
 sudo apt install virtualenv python-pip
 ```
 ---------------------------------------------
-* Create a virtual env
+## For virtualenv users:
 
 1. To see python interpreter path
 ```
@@ -48,19 +48,14 @@ source py3/bin/activate
 ```
 deactivate
 ```
+## For Anaconda users:
+please refer to https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04
 
 ---------------------------------------------
-* Install tensorflow package
+* Install tensorflow
+https://www.tensorflow.org/install#the_url_of_the_tensorflow_python_package
 
-1. install tensorflow gpu package
-```
-pip install --upgrade <remote-pkg-URL>
-```
+* Install pytorch
+https://pytorch.org/get-started/locally/
 
-2. For complete package urls, see here
-https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package
-
-3. e.g.To install tensorflow-gpu for python 3.5
-```
-pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.10.0-cp35-cp35m-linux_x86_64.whl
 ```
