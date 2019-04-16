@@ -5,6 +5,7 @@
 1. create a new user
 ```
 sudo adduser <username>
+# <username> is just a placeholder, replace with your username.
 ```
 
 2. add user to sudo group
@@ -37,6 +38,7 @@ which python3
 2. create virtualenv
 ```
 virtualenv -p /usr/bin/python <py3>
+# <py3> is just a placeholder, replace with any env name that you like.
 ```
 
 or for python 3.x
