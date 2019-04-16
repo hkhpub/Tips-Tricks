@@ -1,6 +1,6 @@
 # New server setting
 ---------------------------------------------
-* Create a new user and add user to sudo group
+## Create a new user & Add user to sudo group
 
 1. create a new user
 ```
@@ -57,5 +57,3 @@ https://www.tensorflow.org/install#the_url_of_the_tensorflow_python_package
 
 * Install pytorch
 https://pytorch.org/get-started/locally/
-
-```
