@@ -15,7 +15,7 @@ sudo usermod -aG sudo <username>
 ```
 sudo login <username>
 ```
-or just restart ssh terminal with a new <username>
+or just start a new ssh session (putty or MobaXterm) with the new user
 
 4. install pip and virtualenv
 ```
