@@ -53,7 +53,7 @@ please refer to https://www.digitalocean.com/community/tutorials/how-to-install-
 
 ---------------------------------------------
 * Install tensorflow
-https://www.tensorflow.org/install#the_url_of_the_tensorflow_python_package
+https://www.tensorflow.org/install
 
 * Install pytorch
 https://pytorch.org/get-started/locally/
