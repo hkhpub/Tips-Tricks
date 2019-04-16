@@ -11,8 +11,13 @@ sudo adduser <username>
 ```
 sudo usermod -aG sudo <username>
 ```
+3. login as new user
+```
+sudo login <username>
+```
+or just restart ssh terminal with a new <username>
 
-3. install pip and virtualenv
+4. install pip and virtualenv
 ```
 sudo apt install virtualenv python-pip
 ```
